@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Simon Bertoli</title>
+  <link rel="icon" type="image/png" href="../images/global/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLZY3H182G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QLZY3H182G');
+  </script>
+</head>
+<body>
+  <div class="preloader" id="preloader" style="position:fixed;top:0;left:0;width:100%;height:100%;background-color:#3b239b;display:flex;align-items:center;justify-content:center;z-index:9999">
+    <img src="../images/global/preloader.gif" alt="Loading..." class="preloader__image">
+  </div>
+  <header class="header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <img src="../images/global/logo.png" alt="Simon Bertoli" class="logo__image">
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="about.html" class="nav__link">About</a>
+        <a href="work.html" class="nav__link">Work</a>
+        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+        <a href="https://www.linkedin.com/in/simon-bertoli-5a73893/" class="nav__social" aria-label="LinkedIn" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <section class="contact-hero">
+    <div class="hero__content">
+      <p class="hero__subtitle" style="margin-bottom:10px;font-size:1.2rem;">don't be a stranger.</p>
+      <h1 class="hero__title">Contact Me</h1>
+    </div>
+    <a href="#contact" class="hero__scroll">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 15.586l-4.293-4.293-1.414 1.414L12 18.414l5.707-5.707-1.414-1.414z"/>
+      </svg>
+    </a>
+  </section>
+  <section id="contact" class="contact-section">
+    <div class="contact-form-full">
+      <form id="contact-form" action="https://formspree.io/f/xjgwdkan" method="POST">
+        <div id="form-status" class="form-status"></div>
+        <div class="contact-form-layout">
+          <div class="contact-form-icon">
+            <img src="../images/contact/contact_icon.png" alt="Contact">
+          </div>
+          <div class="contact-form-fields">
+            <label for="name" class="form-label">What's your name?</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+            <label for="email" class="form-label">What email can I get back to you on?</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+            <label for="message" class="form-label">What can I help you with?</label>
+            <textarea id="message" name="message" class="form-textarea" required></textarea>
+            <button type="submit" class="btn btn--primary">SEND</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <div class="popup-overlay" id="success-popup">
+    <div class="popup-modal">
+      <div class="popup-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="3">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      <h2 class="popup-title">Message Sent!</h2>
+      <p class="popup-message">Thanks for your message! I'll get back to you soon.</p>
+      <button class="popup-close" id="popup-close">Got it</button>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <img src="../images/global/footer_logo.png" alt="Simon Bertoli">
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__bottom">
+          <div class="footer__contact">
+            <a href="mailto:simonbertoli@yahoo.com.au">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M22 6l-10 7L2 6"/>
+              </svg>
+              simonbertoli@yahoo.com.au
+            </a>
+          </div>
+          <div class="footer__portfolio">
+            <h4>PORTFOLIO</h4>
+            <div class="footer__portfolio-links">
+                <a href="work.html?filter=web">Web Development</a>
+                <a href="work.html?filter=instructional">Instructional Design</a>
+                <a href="work.html?filter=elearning">E-Learning</a>
+                <a href="work.html?filter=video">Video Production</a>
+                <a href="work.html?filter=graphic">Graphic Design</a>
+              </div>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2026 Simon Bertoli | Digital Learning Designer. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+  <script>
+    var form = document.getElementById('contact-form');
+    var status = document.getElementById('form-status');
+    var popup = document.getElementById('success-popup');
+    var popupClose = document.getElementById('popup-close');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      fetch(form.action, {method: 'POST', body: new FormData(form), headers: {'Accept': 'application/json'}})
+        .then(function(r) {
+          if (r.ok) {
+            popup.classList.add('active');
+            form.reset();
+          } else {
+            throw new Error();
+          }
+        })
+        .catch(function() {
+          status.className = 'form-status error';
+          status.textContent = 'Oops! Problem sending. Please try again.';
+        });
+    });
+    popupClose.addEventListener('click', function() { popup.classList.remove('active'); });
+    popup.addEventListener('click', function(e) { if (e.target === popup) popup.classList.remove('active'); });
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape') popup.classList.remove('active'); });
+  </script>
+</body>
+</html>

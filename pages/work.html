@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Simon Bertoli - Digital Learning Designer">
+  <title>Work | Simon Bertoli</title>
+  <link rel="icon" type="image/png" href="../images/global/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css?v=10">
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLZY3H182G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QLZY3H182G');
+  </script>
+</head>
+<body>
+  <div class="preloader" id="preloader" style="position:fixed;top:0;left:0;width:100%;height:100%;background-color:#3b239b;display:flex;align-items:center;justify-content:center;z-index:9999">
+    <img src="../images/global/preloader.gif" alt="Loading..." class="preloader__image">
+  </div>
+  <header class="header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <img src="../images/global/logo.png" alt="Simon Bertoli" class="logo__image">
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="about.html" class="nav__link">About</a>
+        <a href="work.html" class="nav__link nav__link--active">Work</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="https://www.linkedin.com/in/simon-bertoli-5a73893/" class="nav__social" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero hero--work">
+    <div class="hero__content">
+      <h1 class="hero__title">My Work</h1>
+    </div>
+    <a href="#portfolio" class="hero__scroll" aria-label="Scroll down">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 15.586l-4.293-4.293-1.414 1.414L12 18.414l5.707-5.707-1.414-1.414z"/>
+        <path d="M12 10.586l-4.293-4.293-1.414 1.414L12 13.414l5.707-5.707-1.414-1.414z"/>
+      </svg>
+    </a>
+  </section>
+  <section id="portfolio" class="section" style="background-color: white; padding-top: 60px;">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn filter-btn--active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="instructional">Instructional Design</button>
+        <button class="filter-btn" data-filter="elearning">E-Learning</button>
+        <button class="filter-btn" data-filter="video">Video Production</button>
+        <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+      </div>
+      <div class="work-page__grid" id="work-projects"></div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <img src="../images/global/footer_logo.png" alt="Simon Bertoli">
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__bottom">
+          <div class="footer__contact">
+            <a href="mailto:simonbertoli@yahoo.com.au">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M22 6l-10 7L2 6"/>
+              </svg>
+              simonbertoli@yahoo.com.au
+            </a>
+          </div>
+          <div class="footer__portfolio">
+            <h4>PORTFOLIO</h4>
+            <div class="footer__portfolio-links">
+                <a href="work.html?filter=web">Web Development</a>
+                <a href="work.html?filter=instructional">Instructional Design</a>
+                <a href="work.html?filter=elearning">E-Learning</a>
+                <a href="work.html?filter=video">Video Production</a>
+                <a href="work.html?filter=graphic">Graphic Design</a>
+              </div>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2026 Simon Bertoli | Digital Learning Designer. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+  <script src="../js/projects.js?v=2"></script>
+  <script>
+    document.getElementById('work-projects').addEventListener('mousemove', function(e) {
+      var cards = document.querySelectorAll('.project-card');
+      cards.forEach(function(card) {
+        var rect = card.getBoundingClientRect();
+        var x = ((e.clientX - rect.left) / rect.width) * 100;
+        var y = ((e.clientY - rect.top) / rect.height) * 100;
+        card.style.setProperty('--mouse-x', x + '%');
+        card.style.setProperty('--mouse-y', y + '%');
+      });
+    });
+  </script>
+</body>
+</html>

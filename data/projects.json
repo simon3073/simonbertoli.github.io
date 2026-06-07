@@ -1,0 +1,186 @@
+[
+  {
+    "id": "adapt",
+    "name": "ADAPT - Single Standards",
+    "topics": [
+      "E-Learning",
+      "Instructional Design"
+    ],
+    "description": "Responsive e-learning module covering quality standards.",
+    "page": "projects/project-adapt/index.html",
+    "thumbnail-img": "projects/project-adapt/.jpg",
+    "featured": true
+  },
+  {
+    "id": "redmap",
+    "name": "Redmap Quick Reference Guide",
+    "topics": [
+      "Web Development",
+      "Illustration"
+    ],
+    "description": "Interactive web-based reference guide for the Redmap document management platform.",
+    "page": "projects/project-redmap/index.html",
+    "featured": true
+  },
+  {
+    "id": "cfa",
+    "name": "CFA Case Studies",
+    "topics": [
+      "Instructional Design",
+      "E-Learning"
+    ],
+    "description": "Scenario-based learning module for firefighters.",
+    "page": "projects/project-cfa/index.html",
+    "featured": true
+  },
+  {
+    "id": "pliny-clinical-forms",
+    "name": "Clinical Forms",
+    "topics": [
+      "Web Development"
+    ],
+    "description": "Dynamic form builder for clinical staff data tracking.",
+    "page": "projects/project-pliny-forms/index.html",
+    "featured": true
+  },
+  {
+    "id": "pliny-progression-charts",
+    "name": "Progression Charts",
+    "topics": [
+      "Web Development"
+    ],
+    "description": "Clinical data progression charts for viewing patient data.",
+    "page": "projects/project-pliny-charts/index.html",
+    "featured": false
+  },
+  {
+    "id": "nh-onboarding",
+    "name": "Northern Health Staff Onboarding",
+    "topics": [
+      "Instructional Design",
+      "E-Learning"
+    ],
+    "description": "Automated email onboarding campaign for new employees.",
+    "page": "projects/project-nh-onboarding/index.html",
+    "featured": false
+  },
+  {
+    "id": "nh-mylearning",
+    "name": "myLearning LMS",
+    "topics": [
+      "Instructional Design",
+      "Web Development"
+    ],
+    "description": "Setup and implementation of Northern Health's Totara LMS.",
+    "page": "projects/project-nh-mylearning/index.html",
+    "featured": false
+  },
+  {
+    "id": "nh-video-design",
+    "name": "Northern Health Video & Print Design",
+    "topics": [
+      "Illustration",
+      "Video Production"
+    ],
+    "description": "Video productions for all Northern Health departments.",
+    "page": "projects/project-nh-video/index.html",
+    "featured": false
+  },
+  {
+    "id": "ua-online-induction",
+    "name": "Uniting AgeWell Online Induction",
+    "topics": [
+      "Instructional Design",
+      "E-Learning"
+    ],
+    "description": "Online induction module with video and xAPI tracking.",
+    "page": "projects/project-ua-induction/index.html",
+    "featured": false
+  },
+  {
+    "id": "cfa-training-online",
+    "name": "CFA Learning & Development - Training Online",
+    "topics": [
+      "Instructional Design",
+      "Web Development"
+    ],
+    "description": "Interactive training modules for new volunteer firefighters",
+    "page": "projects/project-cfa-to/index.html",
+    "featured": false
+  },
+  {
+    "id": "cfa-electrical-safety",
+    "name": "Electrical Safety Awareness",
+    "topics": [
+      "E-Learning",
+      "VR/AR"
+    ],
+    "description": "Created a 360-degree VR firefighting training module using Adobe Captivate and A-Frame.",
+    "page": "projects/project-cfa-electrical/index.html",
+    "featured": true
+  },
+  {
+    "id": "delirium-module",
+    "name": "Delirium & Cognitive Impairment Module",
+    "topics": [
+      "E-Learning",
+      "Instructional Design"
+    ],
+    "description": "A rise eLearning module about Delirium & Cognitive Impairment",
+    "page": "projects/project-delirium/index.html",
+    "featured": true
+  },
+  {
+    "id": "graphic-design-work",
+    "name": "Graphic Design Work",
+    "topics": [
+      "Graphic Design"
+    ],
+    "description": "Various graphic design work",
+    "page": "projects/graphics/index.html",
+    "featured": true
+  },
+  {
+    "id": "thinking-online",
+    "name": "Thinking Online",
+    "topics": [
+      "E-Learning",
+      "Instructional Design"
+    ],
+    "description": "Embedded chatbot in Totara to assist learning module development",
+    "page": "projects/project-thinking-online/index.html",
+    "featured": true
+  },
+  {
+    "id": "vmr",
+    "name": "VMR Training",
+    "topics": [
+      "E-Learning",
+      "Instructional Design"
+    ],
+    "description": "eLearning module for Volunteer Marine Rescue (VMR) radio services",
+    "page": "projects/project-vmr/index.html",
+    "featured": true
+  },
+  {
+    "id": "Video Inforgraphic",
+    "name": "Video Infographic",
+    "topics": [
+      "Video Production"
+    ],
+    "description": "Video infographic explaining a new approach to onboarding at Northern Health.",
+    "page": "projects/project-vid-info/index.html",
+    "featured": true
+  },
+  {
+    "id": "Various Work",
+    "name": "Various Work",
+    "topics": [
+      "E-Learning",
+      "Instructional Design"
+    ],
+    "description": "Various eLearning Modules",
+    "page": "projects/project-various/index.html",
+    "featured": true
+  }
+]

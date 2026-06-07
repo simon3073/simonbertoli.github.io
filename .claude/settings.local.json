@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:claude.ai)",
+      "Bash(python3 -m http.server 5500 --directory /Users/simon/Desktop/sb_portfolio)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5500)",
+      "Bash(npx --yes live-server --version)",
+      "Read(//Users/simon/.vscode/extensions/**)",
+      "Bash(npx live-server *)",
+      "Bash(curl -s -o notion.svg \"https://cdn.simpleicons.org/notion/ffffff\")",
+      "Bash(curl -s -o raindrop.svg \"https://cdn.simpleicons.org/raindropio/ffffff\")",
+      "Bash(curl -s -o adobe.svg \"https://cdn.simpleicons.org/adobe/ffffff\")",
+      "Bash(curl -s -o moodle.svg \"https://cdn.simpleicons.org/moodle/ffffff\")",
+      "Bash(curl -s -o angular.svg \"https://cdn.simpleicons.org/angular/ffffff\")",
+      "Bash(curl -s -o /Users/simon/Desktop/sb_portfolio/images/about/totara.svg \"https://cdn.simpleicons.org/totara/ffffff\")"
+    ]
+  }
+}

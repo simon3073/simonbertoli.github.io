@@ -189,6 +189,19 @@
   .masonry-gallery--4col { columns: 2; }
 }
 
+@media (max-width: 768px) {
+  .masonry-gallery--row {
+    flex-direction: column;
+  }
+  .masonry-gallery--row .masonry-item {
+    flex: none;
+    width: 100%;
+  }
+  .masonry-gallery--grid3 {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 500px) {
   .masonry-gallery { columns: 1; }
   .masonry-gallery--2col { columns: 1; }

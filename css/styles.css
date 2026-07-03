@@ -915,6 +915,17 @@ a:hover { color: var(--gold); }
   line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+  .capabilities {
+    flex-direction: column;
+    align-items: center;
+  }
+  .capabilities-item {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 /* ============================================
    ABOUT PAGE STYLES
    ============================================ */
